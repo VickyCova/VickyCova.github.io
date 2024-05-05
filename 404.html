@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>404 Not Found</title>
     <script>
-      window.location.href = "/";
+      const route = window.location.pathname;
+      window.location.href = `?${route}`;
     </script>
   </head>
   <body></body>
